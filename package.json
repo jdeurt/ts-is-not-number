@@ -28,14 +28,8 @@
     "dist"
   ],
   "keywords": [
-    "example",
     "typescript",
     "npm",
-    "package",
-    "sample",
-    "boilerplate",
-    "starter",
-    "demo",
     "cjs",
     "esm",
     "umd"
