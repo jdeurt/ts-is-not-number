@@ -45,10 +45,10 @@
   "homepage": "https://github.com/jdeurt/ts-is-not-number",
   "repository": {
     "type": "git",
-    "url": "git@github.com:tomchen/jdeurt/ts-is-not-number.git"
+    "url": "git@github.com:jdeurt/ts-is-not-number.git"
   },
   "bugs": {
-    "url": "https://github.com/tomchen/jdeurt/ts-is-not-number/issues"
+    "url": "https://github.com/jdeurt/ts-is-not-number/issues"
   },
   "dependencies": {
     "is-number": "^7.0.0"
