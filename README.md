@@ -1,4 +1,4 @@
-# is-not-number [![NPM version](https://img.shields.io/npm/v/is-number.svg?style=flat)](https://www.npmjs.com/package/is-not-number) [![NPM monthly downloads](https://img.shields.io/npm/dm/is-number.svg?style=flat)](https://npmjs.org/package/is-not-number) [![NPM total downloads](https://img.shields.io/npm/dt/is-number.svg?style=flat)](https://npmjs.org/package/is-not-number)
+# is-not-number [![NPM version](https://img.shields.io/npm/v/ts-is-not-number.svg?style=flat)](https://www.npmjs.com/package/ts-is-not-number) [![NPM monthly downloads](https://img.shields.io/npm/dm/ts-is-not-number.svg?style=flat)](https://npmjs.org/package/ts-is-not-number) [![NPM total downloads](https://img.shields.io/npm/dt/ts-is-not-number.svg?style=flat)](https://npmjs.org/package/ts-is-not-number)
 
 > Returns true if the value is not a finite number.
 
@@ -7,21 +7,8 @@
 Install with [npm](https://www.npmjs.com/):
 
 ```sh
-$ npm install --save is-not-number
+$ npm install --save ts-is-not-number
 ```
-
-## Why is this needed?
-
-In JavaScript, it's not always as straightforward as it should be to reliably check if a value is not a number. It's common for devs to use `+`, `-`, or `Number()` to cast a string value to a number (for example, when values are returned from user input, regex matches, parsers, etc). But there are many non-intuitive edge cases that yield unexpected results:
-
-```js
-console.log(+[]) //=> 0
-console.log(+'') //=> 0
-console.log(+'   ') //=> 0
-console.log(typeof NaN) //=> 'number'
-```
-
-This library offers a performant way to smooth out edge cases like these.
 
 ## Usage
 
