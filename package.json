@@ -1,7 +1,7 @@
 {
-  "name": "example-typescript-package",
-  "version": "0.2.2",
-  "description": "",
+  "name": "is-not-number",
+  "version": "1.0.0",
+  "description": "JavaScript/Node.js utility. Returns `true` if the value is not a number or string number. Useful for checking regex match results, user input, parsed strings, etc.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "umd:main": "dist/umd/index.js",
@@ -40,7 +40,7 @@
     "esm",
     "umd"
   ],
-  "author": "Tom Chen <tomchen.org@gmail.com>",
+  "author": "Juan de Urtubey",
   "license": "MIT",
   "homepage": "https://github.com/tomchen/example-typescript-package",
   "repository": {
@@ -50,10 +50,14 @@
   "bugs": {
     "url": "https://github.com/tomchen/example-typescript-package/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "assert": "^2.0.0",
+    "is-number": "^7.0.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
+    "@types/is-number": "^7.0.3",
     "@types/jest": "^27.0.1",
     "@typescript-eslint/eslint-plugin": "^4.31.1",
     "@typescript-eslint/parser": "^4.31.1",

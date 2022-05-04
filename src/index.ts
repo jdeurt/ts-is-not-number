@@ -1,3 +1,3 @@
-import { Num } from './Num'
+import isNumber from 'is-number'
 
-export { Num }
+export default (num: unknown): boolean => !isNumber(num)
