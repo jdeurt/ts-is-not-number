@@ -1,4 +1,4 @@
-# is-not-number [![NPM version](https://img.shields.io/npm/v/ts-is-not-number.svg?style=flat)](https://www.npmjs.com/package/ts-is-not-number) [![NPM monthly downloads](https://img.shields.io/npm/dm/ts-is-not-number.svg?style=flat)](https://npmjs.org/package/ts-is-not-number) [![NPM total downloads](https://img.shields.io/npm/dt/ts-is-not-number.svg?style=flat)](https://npmjs.org/package/ts-is-not-number)
+# ts-is-not-number [![NPM version](https://img.shields.io/npm/v/ts-is-not-number.svg?style=flat)](https://www.npmjs.com/package/ts-is-not-number) [![NPM monthly downloads](https://img.shields.io/npm/dm/ts-is-not-number.svg?style=flat)](https://npmjs.org/package/ts-is-not-number) [![NPM total downloads](https://img.shields.io/npm/dt/ts-is-not-number.svg?style=flat)](https://npmjs.org/package/ts-is-not-number)
 
 > Returns true if the value is not a finite number.
 
